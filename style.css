@@ -508,10 +508,6 @@ header .logo {
     background-color: #fff;
   }
 
-  .features__dropdown {
-    margin-left: 0;
-  }
-
   .dropdown__container .features,
 .company,
 .careers,
@@ -534,13 +530,20 @@ header .logo {
   }
 
   /*DROPDOWN*/
+  .features__dropdown {
+    margin-left: 0;
+    font-size: 1.1rem;
+  }
+  .features__dropdown .icon__dropdown {
+    width: 18px;
+  }
   .features__dropdown li {
     margin: 20px 40px 20px 10px;
     width: 100%;
   }
 
   .company__dropdown {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .company__dropdown li {
     margin: 20px 10px;

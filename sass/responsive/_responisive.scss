@@ -27,6 +27,7 @@
 
    /*MAIN CONTAINER*/
    .main__container {
+
       // margin-top: 5vw;
       .img__container {
          width: 36%;
@@ -270,10 +271,6 @@
       background-color: #fff;
    }
 
-   .features__dropdown {
-      margin-left: 0;
-   }
-
    .dropdown__container .features,
    .company,
    .careers,
@@ -297,6 +294,13 @@
 
    /*DROPDOWN*/
    .features__dropdown {
+      margin-left: 0;
+      font-size: 1.1rem;
+
+      .icon__dropdown {
+         width: 18px;
+      }
+
       li {
          margin: 20px 40px 20px 10px;
          width: 100%;
@@ -304,7 +308,7 @@
    }
 
    .company__dropdown {
-      font-size: 1rem;
+      font-size: 1.1rem;
 
       li {
          margin: 20px 10px;
